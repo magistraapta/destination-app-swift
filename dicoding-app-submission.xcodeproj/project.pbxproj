@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE75379A2B43D74800ABDF33 /* dicoding_app_submissionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7537992B43D74800ABDF33 /* dicoding_app_submissionApp.swift */; };
+		FE75379C2B43D74800ABDF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75379B2B43D74800ABDF33 /* ContentView.swift */; };
+		FE75379E2B43D74900ABDF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE75379D2B43D74900ABDF33 /* Assets.xcassets */; };
+		FE7537A12B43D74900ABDF33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7537A02B43D74900ABDF33 /* Preview Assets.xcassets */; };
+		FE7537AB2B43D74900ABDF33 /* dicoding_app_submissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7537AA2B43D74900ABDF33 /* dicoding_app_submissionTests.swift */; };
+		FE7537B52B43D74900ABDF33 /* dicoding_app_submissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7537B42B43D74900ABDF33 /* dicoding_app_submissionUITests.swift */; };
+		FE7537B72B43D74900ABDF33 /* dicoding_app_submissionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7537B62B43D74900ABDF33 /* dicoding_app_submissionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE7537A72B43D74900ABDF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE75378E2B43D74800ABDF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7537952B43D74800ABDF33;
+			remoteInfo = "dicoding-app-submission";
+		};
+		FE7537B12B43D74900ABDF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE75378E2B43D74800ABDF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7537952B43D74800ABDF33;
+			remoteInfo = "dicoding-app-submission";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE7537962B43D74800ABDF33 /* dicoding-app-submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicoding-app-submission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7537992B43D74800ABDF33 /* dicoding_app_submissionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_app_submissionApp.swift; sourceTree = "<group>"; };
+		FE75379B2B43D74800ABDF33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE75379D2B43D74900ABDF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE7537A02B43D74900ABDF33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE7537A62B43D74900ABDF33 /* dicoding-app-submissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-app-submissionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7537AA2B43D74900ABDF33 /* dicoding_app_submissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_app_submissionTests.swift; sourceTree = "<group>"; };
+		FE7537B02B43D74900ABDF33 /* dicoding-app-submissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-app-submissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7537B42B43D74900ABDF33 /* dicoding_app_submissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_app_submissionUITests.swift; sourceTree = "<group>"; };
+		FE7537B62B43D74900ABDF33 /* dicoding_app_submissionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_app_submissionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7537932B43D74800ABDF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7537A32B43D74900ABDF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7537AD2B43D74900ABDF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE75378D2B43D74800ABDF33 = {
+			isa = PBXGroup;
+			children = (
+				FE7537982B43D74800ABDF33 /* dicoding-app-submission */,
+				FE7537A92B43D74900ABDF33 /* dicoding-app-submissionTests */,
+				FE7537B32B43D74900ABDF33 /* dicoding-app-submissionUITests */,
+				FE7537972B43D74800ABDF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7537972B43D74800ABDF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7537962B43D74800ABDF33 /* dicoding-app-submission.app */,
+				FE7537A62B43D74900ABDF33 /* dicoding-app-submissionTests.xctest */,
+				FE7537B02B43D74900ABDF33 /* dicoding-app-submissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7537982B43D74800ABDF33 /* dicoding-app-submission */ = {
+			isa = PBXGroup;
+			children = (
+				FE7537992B43D74800ABDF33 /* dicoding_app_submissionApp.swift */,
+				FE75379B2B43D74800ABDF33 /* ContentView.swift */,
+				FE75379D2B43D74900ABDF33 /* Assets.xcassets */,
+				FE75379F2B43D74900ABDF33 /* Preview Content */,
+			);
+			path = "dicoding-app-submission";
+			sourceTree = "<group>";
+		};
+		FE75379F2B43D74900ABDF33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE7537A02B43D74900ABDF33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE7537A92B43D74900ABDF33 /* dicoding-app-submissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7537AA2B43D74900ABDF33 /* dicoding_app_submissionTests.swift */,
+			);
+			path = "dicoding-app-submissionTests";
+			sourceTree = "<group>";
+		};
+		FE7537B32B43D74900ABDF33 /* dicoding-app-submissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7537B42B43D74900ABDF33 /* dicoding_app_submissionUITests.swift */,
+				FE7537B62B43D74900ABDF33 /* dicoding_app_submissionUITestsLaunchTests.swift */,
+			);
+			path = "dicoding-app-submissionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7537952B43D74800ABDF33 /* dicoding-app-submission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7537BA2B43D74900ABDF33 /* Build configuration list for PBXNativeTarget "dicoding-app-submission" */;
+			buildPhases = (
+				FE7537922B43D74800ABDF33 /* Sources */,
+				FE7537932B43D74800ABDF33 /* Frameworks */,
+				FE7537942B43D74800ABDF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dicoding-app-submission";
+			productName = "dicoding-app-submission";
+			productReference = FE7537962B43D74800ABDF33 /* dicoding-app-submission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE7537A52B43D74900ABDF33 /* dicoding-app-submissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7537BD2B43D74900ABDF33 /* Build configuration list for PBXNativeTarget "dicoding-app-submissionTests" */;
+			buildPhases = (
+				FE7537A22B43D74900ABDF33 /* Sources */,
+				FE7537A32B43D74900ABDF33 /* Frameworks */,
+				FE7537A42B43D74900ABDF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7537A82B43D74900ABDF33 /* PBXTargetDependency */,
+			);
+			name = "dicoding-app-submissionTests";
+			productName = "dicoding-app-submissionTests";
+			productReference = FE7537A62B43D74900ABDF33 /* dicoding-app-submissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE7537AF2B43D74900ABDF33 /* dicoding-app-submissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7537C02B43D74900ABDF33 /* Build configuration list for PBXNativeTarget "dicoding-app-submissionUITests" */;
+			buildPhases = (
+				FE7537AC2B43D74900ABDF33 /* Sources */,
+				FE7537AD2B43D74900ABDF33 /* Frameworks */,
+				FE7537AE2B43D74900ABDF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7537B22B43D74900ABDF33 /* PBXTargetDependency */,
+			);
+			name = "dicoding-app-submissionUITests";
+			productName = "dicoding-app-submissionUITests";
+			productReference = FE7537B02B43D74900ABDF33 /* dicoding-app-submissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE75378E2B43D74800ABDF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FE7537952B43D74800ABDF33 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FE7537A52B43D74900ABDF33 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FE7537952B43D74800ABDF33;
+					};
+					FE7537AF2B43D74900ABDF33 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FE7537952B43D74800ABDF33;
+					};
+				};
+			};
+			buildConfigurationList = FE7537912B43D74800ABDF33 /* Build configuration list for PBXProject "dicoding-app-submission" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE75378D2B43D74800ABDF33;
+			productRefGroup = FE7537972B43D74800ABDF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7537952B43D74800ABDF33 /* dicoding-app-submission */,
+				FE7537A52B43D74900ABDF33 /* dicoding-app-submissionTests */,
+				FE7537AF2B43D74900ABDF33 /* dicoding-app-submissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7537942B43D74800ABDF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7537A12B43D74900ABDF33 /* Preview Assets.xcassets in Resources */,
+				FE75379E2B43D74900ABDF33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7537A42B43D74900ABDF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7537AE2B43D74900ABDF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7537922B43D74800ABDF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE75379C2B43D74800ABDF33 /* ContentView.swift in Sources */,
+				FE75379A2B43D74800ABDF33 /* dicoding_app_submissionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7537A22B43D74900ABDF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7537AB2B43D74900ABDF33 /* dicoding_app_submissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7537AC2B43D74900ABDF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7537B52B43D74900ABDF33 /* dicoding_app_submissionUITests.swift in Sources */,
+				FE7537B72B43D74900ABDF33 /* dicoding_app_submissionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE7537A82B43D74900ABDF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7537952B43D74800ABDF33 /* dicoding-app-submission */;
+			targetProxy = FE7537A72B43D74900ABDF33 /* PBXContainerItemProxy */;
+		};
+		FE7537B22B43D74900ABDF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7537952B43D74800ABDF33 /* dicoding-app-submission */;
+			targetProxy = FE7537B12B43D74900ABDF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE7537B82B43D74900ABDF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE7537B92B43D74900ABDF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE7537BB2B43D74900ABDF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dicoding-app-submission/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magistraapta.dicoding-app-submission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE7537BC2B43D74900ABDF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dicoding-app-submission/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magistraapta.dicoding-app-submission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE7537BE2B43D74900ABDF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magistraapta.dicoding-app-submissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-app-submission.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dicoding-app-submission";
+			};
+			name = Debug;
+		};
+		FE7537BF2B43D74900ABDF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magistraapta.dicoding-app-submissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-app-submission.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dicoding-app-submission";
+			};
+			name = Release;
+		};
+		FE7537C12B43D74900ABDF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magistraapta.dicoding-app-submissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dicoding-app-submission";
+			};
+			name = Debug;
+		};
+		FE7537C22B43D74900ABDF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magistraapta.dicoding-app-submissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dicoding-app-submission";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7537912B43D74800ABDF33 /* Build configuration list for PBXProject "dicoding-app-submission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7537B82B43D74900ABDF33 /* Debug */,
+				FE7537B92B43D74900ABDF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7537BA2B43D74900ABDF33 /* Build configuration list for PBXNativeTarget "dicoding-app-submission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7537BB2B43D74900ABDF33 /* Debug */,
+				FE7537BC2B43D74900ABDF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7537BD2B43D74900ABDF33 /* Build configuration list for PBXNativeTarget "dicoding-app-submissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7537BE2B43D74900ABDF33 /* Debug */,
+				FE7537BF2B43D74900ABDF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7537C02B43D74900ABDF33 /* Build configuration list for PBXNativeTarget "dicoding-app-submissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7537C12B43D74900ABDF33 /* Debug */,
+				FE7537C22B43D74900ABDF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE75378E2B43D74800ABDF33 /* Project object */;
+}
